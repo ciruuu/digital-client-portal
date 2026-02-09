@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #4a00e0;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Main section */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background: #4a00e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #8e2de2;
+    transform: scale(1.05);
+}
+
+#hello-message {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.05);
+}

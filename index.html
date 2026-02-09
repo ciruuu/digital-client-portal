@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beautiful Flask App</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>✨ Welcome to My Flask App ✨</h1>
+        <p>Your app is running perfectly!</p>
+    </header>
+
+    <main>
+        <button id="hello-btn">Say Hello</button>
+        <p id="hello-message"></p>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ using Flask</p>
+    </footer>
+
+    <!-- Link JS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
